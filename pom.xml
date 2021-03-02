@@ -47,6 +47,8 @@
     <quarkus.plugin.version>1.11.5.Final</quarkus.plugin.version>
 
     <junit.version>5.7.0</junit.version>
+
+    <enforcedMavenVersion>[3.6.0,)</enforcedMavenVersion>
   </properties>
 
   <dependencyManagement>

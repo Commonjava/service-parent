@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'maven' }
+    agent { label 'maven-36-jdk11' }
     stages {
         stage('Prepare') {
             steps {
@@ -11,14 +11,14 @@ pipeline {
                 expression { env.CHANGE_ID != null } // Pull request
             }
             steps {
-                sh 'mvn -B -V clean verify -Prun-its'
+                sh '${M2_HOME}/bin/mvn -B -V clean verify -Prun-its'
             }
         }
         stage('Deploy') {
             when { branch 'master' }
             steps {
                 echo "Deploy"
-                sh 'mvn help:effective-settings -B -V clean deploy -e'
+                sh '${M2_HOME}/bin/mvn help:effective-settings -B -V clean deploy -e'
             }
         }
     }
