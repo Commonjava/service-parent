@@ -45,7 +45,7 @@
 
     <quarkus.version>1.11.5.Final</quarkus.version>
     <quarkus.plugin.version>1.11.5.Final</quarkus.plugin.version>
-    <netty.version>4.1.19.Final</netty.version>
+    <netty.version>4.1.49.Final</netty.version>
 
     <junit.version>5.7.0</junit.version>
 
