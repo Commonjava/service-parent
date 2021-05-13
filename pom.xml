@@ -43,8 +43,8 @@
     <javaVersion>11</javaVersion>
     <projectEmail>https://github.com/Commonjava/service-parent</projectEmail>
 
-    <quarkus.version>1.13.4.Final</quarkus.version>
-    <quarkus.plugin.version>1.13.4.Final</quarkus.plugin.version>
+    <quarkus.version>1.12.2.Final</quarkus.version>
+    <quarkus.plugin.version>1.12.2.Final</quarkus.plugin.version>
     <netty.version>4.1.49.Final</netty.version>
 
     <junit.version>5.7.0</junit.version>
