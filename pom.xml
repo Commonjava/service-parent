@@ -1,6 +1,6 @@
 <!--
 
-    Copyright (C) 2011-2022 Red Hat, Inc. (https://github.com/Commonjava/service-parent)
+    Copyright (C) 2021-2023 Red Hat, Inc. (https://github.com/Commonjava/service-parent)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -28,7 +28,7 @@
   <name>Commonjava Services Parent POM</name>
   <url>https://github.com/Commonjava/service-parent</url>
   <description>Commonjava Services Parent POM</description>
-  <inceptionYear>2011-2022</inceptionYear>
+  <inceptionYear>2021-2023</inceptionYear>
 
   <scm>
     <connection>scm:git:https://github.com/commonjava/service-parent</connection>
@@ -41,12 +41,12 @@
     <javaVersion>11</javaVersion>
     <projectEmail>https://github.com/Commonjava/service-parent</projectEmail>
 
-    <quarkus.version>2.13.0.Final</quarkus.version>
-    <quarkus.plugin.version>2.13.0.Final</quarkus.plugin.version>
-    <opentelemery.version>1.17.0</opentelemery.version>
+    <quarkus.version>2.15.0.Final</quarkus.version>
+    <quarkus.plugin.version>2.15.0.Final</quarkus.plugin.version>
+    <opentelemery.version>1.21.0</opentelemery.version>
     <netty.version>4.1.76.Final</netty.version>
 
-    <junit.version>5.8.2</junit.version>
+    <junit.version>5.9.1</junit.version>
 
     <enforcedMavenVersion>[3.6.0,)</enforcedMavenVersion>
   </properties>
