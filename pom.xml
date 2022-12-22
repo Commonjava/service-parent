@@ -43,7 +43,7 @@
 
     <quarkus.version>2.15.0.Final</quarkus.version>
     <quarkus.plugin.version>2.15.0.Final</quarkus.plugin.version>
-    <opentelemery.version>1.21.0</opentelemery.version>
+    <opentelemery.version>1.19.0</opentelemery.version>
     <netty.version>4.1.76.Final</netty.version>
 
     <junit.version>5.9.1</junit.version>
