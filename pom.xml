@@ -41,8 +41,7 @@
     <javaVersion>11</javaVersion>
     <projectEmail>https://github.com/Commonjava/service-parent</projectEmail>
 
-    <quarkus.version>2.15.0.Final</quarkus.version>
-    <quarkus.plugin.version>2.15.0.Final</quarkus.plugin.version>
+    <quarkus.version>2.16.6.Final</quarkus.version>
     <opentelemery.version>1.19.0</opentelemery.version>
     <netty.version>4.1.76.Final</netty.version>
 
@@ -54,7 +53,7 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>io.quarkus</groupId>
+        <groupId>io.quarkus.platform</groupId>
         <artifactId>quarkus-bom</artifactId>
         <version>${quarkus.version}</version>
         <type>pom</type>
@@ -88,9 +87,9 @@
     <pluginManagement>
       <plugins>
         <plugin>
-          <groupId>io.quarkus</groupId>
+          <groupId>io.quarkus.platform</groupId>
           <artifactId>quarkus-maven-plugin</artifactId>
-          <version>${quarkus.plugin.version}</version>
+          <version>${quarkus.version}</version>
           <executions>
             <execution>
               <goals>
@@ -105,7 +104,7 @@
     </pluginManagement>
     <plugins>
       <plugin>
-        <groupId>io.quarkus</groupId>
+        <groupId>io.quarkus.platform</groupId>
         <artifactId>quarkus-maven-plugin</artifactId>
       </plugin>
       <plugin>
