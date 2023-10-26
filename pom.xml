@@ -41,9 +41,9 @@
     <javaVersion>11</javaVersion>
     <projectEmail>https://github.com/Commonjava/service-parent</projectEmail>
 
-    <quarkus.version>2.16.9.Final</quarkus.version>
+    <quarkus.version>2.16.12.Final</quarkus.version>
     <opentelemery.version>1.21.0</opentelemery.version>
-    <netty.version>4.1.76.Final</netty.version>
+    <netty.version>4.1.99.Final</netty.version>
 
     <junit.version>5.9.2</junit.version>
 
