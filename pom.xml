@@ -21,6 +21,7 @@
     <artifactId>commonjava</artifactId>
     <version>19-SNAPSHOT</version>
   </parent>
+
   <modelVersion>4.0.0</modelVersion>
   <artifactId>service-parent</artifactId>
   <version>5-SNAPSHOT</version>
@@ -46,7 +47,7 @@
     <netty.version>4.1.106.Final</netty.version>
 
     <junit.version>5.10.1</junit.version>
-
+    <indy-security.version>1.2-SNAPSHOT</indy-security.version>
     <enforcedMavenVersion>[3.6.0,)</enforcedMavenVersion>
   </properties>
 
@@ -65,6 +66,11 @@
         <version>${opentelemery.version}</version>
         <type>pom</type>
         <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.commonjava.indy.service</groupId>
+        <artifactId>indy-security</artifactId>
+        <version>${indy-security.version}</version>
       </dependency>
       <!-- Include this in dependency to fix netty_transport_native_epoll missing warning -->
       <dependency>
