@@ -47,7 +47,7 @@
     <netty.version>4.1.106.Final</netty.version>
 
     <junit.version>5.10.1</junit.version>
-    <indy-security.version>1.2-SNAPSHOT</indy-security.version>
+    <indy-security.version>1.2</indy-security.version>
     <enforcedMavenVersion>[3.6.0,)</enforcedMavenVersion>
   </properties>
 
